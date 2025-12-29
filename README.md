@@ -1,6 +1,6 @@
 ## 🛍️ TripVerse
 
-### Produtos
+### Projeto
 
 Este projeto é uma **Landing Page moderna e responsiva** criada para apresentar uma experiência visual imersiva e focada na conversão. O design utiliza um fundo escuro (Dark Mode) com contrastes vibrantes para destacar cada parte da experiência.
 
