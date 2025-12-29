@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore destinos incríveis ao redor do mundo com a melhor experiência de viagem">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>TripVerse - Viagens Futurísticas</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <div id="particles"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">TripVerse</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trips">Viagens</a></li>
+                <li><a href="#meetus">Sobre Nós</a></li>
+                <li><a href="#advice">Conselhos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Explore o Impossível</h1>
+            <p class="hero-subtitle">Descubra destinos extraordinários além da sua imaginação. Uma jornada futurística pelo mundo.</p>
+            <a href="#trips" class="cta-button">Começar Aventura</a>
+        </div>
+    </main>
+
+
+    <section id="trips">
+        <h2 class="section-title">Destinos Incríveis</h2>
+        <p class="section-subtitle">Explore os lugares mais fascinantes do planeta</p>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop" alt="Paris" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Paris, França</h3>
+                    <p class="card-description">Explore a cidade luz com seus monumentos icônicos, museus mundialmente famosos e a incrível gastronomia francesa.</p>
+                    <a href="#contact" class="card-button">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=2094&auto=format&fit=crop" alt="Tokyo" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Tóquio, Japão</h3>
+                    <p class="card-description">Descubra a fusão perfeita entre tradição milenar e tecnologia futurística na capital japonesa.</p>
+                    <a href="#contact" class="card-button">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=2135&auto=format&fit=crop" alt="Santorini" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Santorini, Grécia</h3>
+                    <p class="card-description">Relaxe nas belas praias e admire o pôr do sol mais famoso do mundo nas ilhas gregas.</p>
+                    <a href="#contact" class="card-button">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New York" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Nova York, EUA</h3>
+                    <p class="card-description">Viva a energia contagiante da cidade que nunca dorme com sua cultura vibrante e arranha-céus impressionantes.</p>
+                    <a href="#contact" class="card-button">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop" alt="Dubai" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Dubai, EAU</h3>
+                    <p class="card-description">Experimente o luxo e a modernidade extrema em uma das cidades mais futurísticas do mundo.</p>
+                    <a href="#contact" class="card-button">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=2065&auto=format&fit=crop" alt="Maldivas" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Maldivas</h3>
+                    <p class="card-description">Mergulhe no paraíso tropical com águas cristalinas, recifes de coral e resorts exclusivos sobre o mar.</p>
+                    <a href="#contact" class="card-button">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="meetus">
+        <h2 class="section-title">Conheça Nossa História</h2>
+        <p class="section-subtitle">Transformando sonhos em experiências inesquecíveis</p>
+        
+        <div class="meetus-content">
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2035&auto=format&fit=crop" alt="Nossa Equipe" class="meetus-image">
+            <div class="meetus-text">
+                <h3>Expertise em Viagens Globais</h3>
+                <p>Há mais de uma década, a TripVerse tem sido referência em experiências de viagem personalizadas e inesquecíveis. Nossa equipe de especialistas percorreu todos os continentes para trazer as melhores recomendações para você.</p>
+                <p>Combinamos tecnologia de ponta com atendimento humanizado para criar roteiros sob medida que superam todas as expectativas. Cada destino é cuidadosamente selecionado e cada detalhe planejado para garantir momentos únicos.</p>
+                <p>Junte-se a milhares de viajantes satisfeitos que confiaram em nós para realizar seus sonhos de viagem. Sua próxima aventura começa aqui!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="advice">
+        <h2 class="section-title">Conselhos Essenciais</h2>
+        <p class="section-subtitle">Dicas dos nossos especialistas para uma viagem perfeita</p>
+        
+        <div class="advice-grid">
+            <article class="advice-item">
+                <div class="advice-icon">🛡️</div>
+                <h3>Seguro Viagem</h3>
+                <p>Proteja-se com um seguro abrangente. Viaje com tranquilidade sabendo que está coberto em qualquer situação.</p>
+            </article>
+
+            <article class="advice-item">
+                <div class="advice-icon">📱</div>
+                <h3>Conectividade</h3>
+                <p>Mantenha-se conectado com chips internacionais e apps essenciais. O mundo está sempre ao seu alcance.</p>
+            </article>
+
+            <article class="advice-item">
+                <div class="advice-icon">💼</div>
+                <h3>Documentação</h3>
+                <p>Verifique passaportes, vistos e vacinas com antecedência. Organize tudo digitalmente para facilitar.</p>
+            </article>
+
+            <article class="advice-item">
+                <div class="advice-icon">🌍</div>
+                <h3>Cultura Local</h3>
+                <p>Pesquise costumes e tradições do destino. Respeite a cultura local e enriqueça sua experiência.</p>
+            </article>
+
+            <article class="advice-item">
+                <div class="advice-icon">💰</div>
+                <h3>Planejamento</h3>
+                <p>Reserve com antecedência para melhores preços. Use nosso sistema inteligente de otimização de custos.</p>
+            </article>
+
+            <article class="advice-item">
+                <div class="advice-icon">🎒</div>
+                <h3>Bagagem Smart</h3>
+                <p>Embale inteligentemente com nossas checklists personalizadas. Leve o essencial, viaje com leveza.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">Estamos prontos para planejar sua próxima aventura</p>
+        
+        <div class="contact-container">
+            <h3 style="font-size: 2rem; margin-bottom: 1rem; color: var(--primary);">Fale Conosco via WhatsApp</h3>
+            <p style="color: rgba(255, 255, 255, 0.7); font-size: 1.1rem; margin-bottom: 2rem;">
+                Nossa equipe está disponível 24/7 para responder suas dúvidas e criar o roteiro perfeito para você.
+            </p>
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20viagens%20da%20TripVerse" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Chamar no WhatsApp
+            </a>
+            <p style="color: rgba(255, 255, 255, 0.5); margin-top: 2rem; font-size: 0.9rem;">
+                📞 +55 11 92834-3648 | ✉️ contato@tripverse.com
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo" style="font-size: 2rem; margin-bottom: 1rem;">TripVerse</div>
+            <p style="color: rgba(255, 255, 255, 0.6); max-width: 600px; margin: 1rem auto;">
+                Transformando sonhos em jornadas reais desde 2025. Sua próxima aventura extraordinária começa aqui.
+            </p>
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook">f</a>
+                <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                <a href="#" class="social-link" aria-label="YouTube">▶</a>
+            </div>
+            <p class="footer-text">© 2025 TripVerse. Todos os direitos reservados. | Desenvolvido por Daniel Fortes</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">↑</button>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
